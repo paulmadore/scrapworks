@@ -1,0 +1,107 @@
+/* Sinkin Sans Font Available under Apache 2.0 License */
+
+@font-face {
+    font-family: 'sink800';
+    src: url('sink800.eot');
+    src: url('sink800.eot?#iefix') format('embedded-opentype'),
+         url('sink800.woff2') format('woff2'),
+         url('sink800.woff') format('woff'),
+         url('sink800.ttf') format('truetype'),
+         url('sink800.svg#sink800') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #B7C3D1;
+    font-family: "sink800";
+    padding: 0.3in;
+    background-image: url("scws.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    position: fixed;
+
+}
+
+a {
+    color: #39526D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7C8EA3;
+    text-decoration: none;
+    border-bottom: 1px dotted #39526D;
+}
+
+#main {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 25px dashed #39495B;
+    border-radius: 5px 5px 5px 5px;
+    min-height: 450px;
+    z-index: 1;
+   
+}
+
+#main p {
+    font-size: 24pt;
+    color: #dbd375;
+    text-shadow: -1px -1px 0 #39495B,
+    1px -1px 0 #39495B,
+    -1px 1px 0 #39495B,
+    1px 1px 0 #39495B;  
+    margin: 1in;
+}
+
+#main p a {
+    text-shadow: -1px -1px 0 #dbd375,
+    1px -1px 0 #dbd375,
+    -1px 1px 0 #dbd375,
+    1px 1px 0 #dbd375;  
+}
+
+#main p a:hover {
+    text-shadow: -1px -1px 0 #39495B,
+    1px -1px 0 #39495B,
+    -1px 1px 0 #39495B,
+    1px 1px 0 #39495B;  
+}
+
+#nav {
+    background-color: #39495B;
+    float: right;
+    width: 10%;
+    margin-top: 100px;
+    min-height: 200px;
+    border-radius: 33px 33px 33px 33px;
+    padding-bottom: .1in;
+}
+
+#nav ul li {
+    font-family: "sink800";
+    list-style-type: none;
+    color: #FDFD96;
+    font-size: 18pt;
+}
+
+#nav ul li a {
+    font-family: "sink800";
+    color: #f0f1c2;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    color: #FDFD96;
+    border-bottom: 2px dotted #B7C3D1;
+}
+
+#logo {
+   width: 100%;
+    
+   z-index: 1;
+
+}
+
